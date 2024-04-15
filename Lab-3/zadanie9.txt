@@ -1,0 +1,15 @@
+Funkcja fzero przeszukuje okolice zadanych punktów w celu znalezienia zmiany znaku.
+Odpowiednio dla punktu startowego x = 6 oraz x = 4 znajduje przedzialy podejrzane o posiadanie 
+miejsc zerowych.
+
+Dla x = 6 -> przedzial [5.66059, 6.33941]:
+7         5.66059     -0.717836       6.33941     0.0562853   search
+Dla x = 4 -> przedzial [3.0949, 4.64]:
+14          3.0949    -0.0467233          4.64       13.7901   search
+
+Funkcja fzero z punktem startowym x = 6 znalazła 
+poprawne miejsce zerowe funkcji tan(x) dla wyliczonych przedziałow.
+
+Natomiast z punktem startowym 4.5 funkcja nie znalazla 
+miejsca zerowego. Może być to spowodowane nieciągłaścia funkcji tanges 
+w tym obszarze.

@@ -1,0 +1,13 @@
+residual_exact = 6.9689e-13
+
+Norma błędu rezydualnego dla rozwiązania dokładnego jest bardzo mała, co wskazuje na wysoką dokładność rozwiązania.
+
+
+residual_norm_Jacobi = NaN
+
+Dla metody Jacobiego otrzymano wartość NaN dla normy błędu rezydualnego. To może wskazywać na problemy z zastosowaniem metody Jacobiego dla tego konkretnego przypadku.
+
+
+residual_norm_Gauss_Seidel = 6.4367e+10
+
+Norma błędu rezydualnego dla metody Gaussa-Seidela jest znacznie większa niż dla rozwiązania dokładnego, co sugeruje mniejszą dokładność.
